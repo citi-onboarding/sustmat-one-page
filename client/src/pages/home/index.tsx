@@ -7,7 +7,7 @@ export const Home: React.FC = () => {
     return (
         <HomeContainer>
             <img src={LogoCITi} alt="" />
-            <h1>ReactJS Boilerplate</h1>
+            <h1>SustMat One Page</h1>
             <p>
                 Made with
                 {' '}
