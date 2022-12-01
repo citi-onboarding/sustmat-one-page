@@ -22,8 +22,8 @@ img {
     position: absolute;
     width: 58px;
     height: 25px;
-    left: 1102px;
-    top: 43px;
+    left: 1052px;
+    top: 34px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -48,8 +48,8 @@ img {
     position: absolute;
     width: 113px;
     height: 25px;
-    left: 935px;
-    top: 43px;
+    left: 885px;
+    top: 34px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -75,8 +75,8 @@ img {
     position: absolute;
     width: 113px;
     height: 25px;
-    left: 768px;
-    top: 43px;
+    left: 718px;
+    top: 34px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -102,8 +102,8 @@ img {
     position: absolute;
     width: 62px;
     height: 25px;
-    left: 652px;
-    top: 43px;
+    left: 602px;
+    top: 34px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -129,25 +129,24 @@ img {
     position: absolute;
     width: 138px;
     height: 42px;
-    left: 1200px;
-    top: 34px;
-
-    background-color: blue;
+    left: 1130px;
+    top: 38px;
 }
 
 .Tcontact {
     position: absolute;
     width: 78px;
     height: 25px;
-    left: 1224px;
-    top: 43px;
+    left: 35px;
+    top: -5px;
+    z-index: 10;
     
     font-family: 'Sen';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    
+
     color: #FFFFFF;
     
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.17);
@@ -158,9 +157,7 @@ img {
     width: 138px;
     height: 42px;
     left: 0px;
-    top: 34px;
-
-    background-color: yellow;
+    top: 0px;
 }
 
 .rectangle150 {
@@ -168,7 +165,7 @@ img {
     width: 138px;
     height: 42px;
     left: 0px;
-    top: 34px;
+    top: 0px;
     
     background: linear-gradient(278.87deg, #6AA5FE 27.2%, #73D5E5 111.13%);
     border-radius: 21px;
