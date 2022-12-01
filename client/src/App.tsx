@@ -8,12 +8,15 @@ import { Navbar } from './pages';
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
       <Navbar/>
-      <Home/>
-      <GlobalStyle/>
-    </ThemeProvider>
   );
 }
 
 export default App;
+
+/*
+<ThemeProvider theme={theme}>
+<Home/>
+<GlobalStyle/>
+</ThemeProvider>
+*/
