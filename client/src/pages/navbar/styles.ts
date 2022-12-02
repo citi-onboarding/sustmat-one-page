@@ -4,12 +4,15 @@ import styled from 'styled-components';
 export const NavbarContainer = styled.div`
 position: fixed;
 z-index= 10;
-width: 1300px;
+max-width: 100%;
+min-width: 1300px;
 height: 110px;
 left: 0%;
 top: 0px;
 filter: drop-shadow(0px -6px 25px rgba(0, 0, 0, 0.24));
 
+background: #FFFFFF;
+box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
 right: 0%;
 display: flex;
 flex-direction: row;
@@ -31,7 +34,7 @@ img {
     position: absolute;
     width: 58px;
     height: 25px;
-    left: 1052px;
+    left: 81%;
     top: 45px;
     
     font-family: 'Sen';
@@ -57,7 +60,7 @@ img {
     position: absolute;
     width: 113px;
     height: 25px;
-    left: 885px;
+    left: 70%;
     top: 45px;
     
     font-family: 'Sen';
@@ -84,7 +87,7 @@ img {
     position: absolute;
     width: 113px;
     height: 25px;
-    left: 718px;
+    left: 59%;
     top: 45px;
     
     font-family: 'Sen';
@@ -111,7 +114,7 @@ img {
     position: absolute;
     width: 62px;
     height: 25px;
-    left: 602px;
+    left: 50%;
     top: 45px;
     
     font-family: 'Sen';
@@ -138,7 +141,7 @@ img {
     position: absolute;
     width: 138px;
     height: 42px;
-    left: 1130px;
+    right: 2.5%;
     top: 38px;
 }
 
@@ -185,11 +188,12 @@ img {
 }
 
 .rectangle2 {
-    position: block;
-    width: 1300px;
+    position: fixed;
+    max-width: 100%;
+    min-width: 1300px;
     height: 110px;
     left: 0%;
-    top: 0px;
+    margin-top: 200px;
 
     right: 0%;
     display: flex;

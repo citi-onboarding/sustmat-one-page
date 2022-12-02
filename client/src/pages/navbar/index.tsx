@@ -17,7 +17,6 @@ export const Navbar: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <button className="rectangle2"></button>
         </NavbarContainer>
     );
 }
