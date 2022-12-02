@@ -4,11 +4,20 @@ import styled from 'styled-components';
 export const NavbarContainer = styled.div`
 position: fixed;
 z-index= 10;
-width: 1266px;
+width: 1300px;
 height: 110px;
-left: 0px;
+left: 0%;
 top: 0px;
 filter: drop-shadow(0px -6px 25px rgba(0, 0, 0, 0.24));
+
+right: 0%;
+display: flex;
+flex-direction: row;
+
+button {
+    background-color: transparent;
+    border: transparent;
+}
 
 img {
     position: absolute;
@@ -23,7 +32,7 @@ img {
     width: 58px;
     height: 25px;
     left: 1052px;
-    top: 34px;
+    top: 45px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -49,7 +58,7 @@ img {
     width: 113px;
     height: 25px;
     left: 885px;
-    top: 34px;
+    top: 45px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -76,7 +85,7 @@ img {
     width: 113px;
     height: 25px;
     left: 718px;
-    top: 34px;
+    top: 45px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -103,7 +112,7 @@ img {
     width: 62px;
     height: 25px;
     left: 602px;
-    top: 34px;
+    top: 45px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -137,8 +146,8 @@ img {
     position: absolute;
     width: 78px;
     height: 25px;
-    left: 35px;
-    top: -5px;
+    left: 28px;
+    top: 7px;
     z-index: 10;
     
     font-family: 'Sen';
@@ -179,8 +188,12 @@ img {
     position: block;
     width: 1300px;
     height: 110px;
-    left: 0px;
+    left: 0%;
     top: 0px;
+
+    right: 0%;
+    display: flex;
+    flex-direction: row;
     
     background: #FFFFFF;
     box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);

@@ -6,18 +6,18 @@ export const Navbar: React.FC = () => {
     return (
         <NavbarContainer>
             <img src={LogoSustMat} alt="" />
-            <h1 className="Tteam">Team</h1>
-            <h1 className="Ttechnology">Technology</h1>
-            <h1 className="Tadvantages">Advantages</h1>
-            <h1 className="Thome">Home</h1>
+            <button className="Tteam">Team</button>
+            <button className="Ttechnology">Technology</button>
+            <button className="Tadvantages">Advantages</button>
+            <button className="Thome">Home</button>
             <div className="contact">
                 <div className="group45">
                     <div className="rectangle150">
-                        <h1 className="Tcontact">Contact</h1>
+                        <button className="Tcontact">Contact</button>
                     </div>
                 </div>
             </div>
-            <div className="rectangle2"></div>
+            <button className="rectangle2"></button>
         </NavbarContainer>
     );
 }
