@@ -12,9 +12,9 @@ export const Navbar: React.FC = () => {
             <button className="Thome">Home</button>
             <div className="contact">
                 <div className="group45">
-                    <div className="rectangle150">
-                        <button className="Tcontact">Contact</button>
-                    </div>
+                    <button className="rectangle150">
+                        <div className="Tcontact">Contact</div>
+                    </button>
                 </div>
             </div>
         </NavbarContainer>

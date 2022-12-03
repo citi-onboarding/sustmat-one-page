@@ -4,10 +4,10 @@ import styled from 'styled-components';
 export const NavbarContainer = styled.div`
 position: fixed;
 z-index= 10;
-max-width: 100%;
-min-width: 1300px;
+max-width: 1366px;
 height: 110px;
-left: 0%;
+left: 0px;
+margin: auto;
 top: 0px;
 filter: drop-shadow(0px -6px 25px rgba(0, 0, 0, 0.24));
 
@@ -20,13 +20,14 @@ flex-direction: row;
 button {
     background-color: transparent;
     border: transparent;
+    cursor: pointer;
 }
 
 img {
     position: absolute;
     width: 107px;
     height: 84px;
-    left: 115px;
+    left: 8.4%;
     top: 16px;    
 }
 
@@ -34,8 +35,8 @@ img {
     position: absolute;
     width: 58px;
     height: 25px;
-    left: 81%;
-    top: 45px;
+    left: 80.6%;
+    top: 43px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -60,8 +61,8 @@ img {
     position: absolute;
     width: 113px;
     height: 25px;
-    left: 70%;
-    top: 45px;
+    left: 68.4%;
+    top: 43px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -87,8 +88,8 @@ img {
     position: absolute;
     width: 113px;
     height: 25px;
-    left: 59%;
-    top: 45px;
+    left: 56.2%;
+    top: 43px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -114,8 +115,8 @@ img {
     position: absolute;
     width: 62px;
     height: 25px;
-    left: 50%;
-    top: 45px;
+    left: 47.7%;
+    top: 43px;
     
     font-family: 'Sen';
     font-style: normal;
@@ -141,8 +142,8 @@ img {
     position: absolute;
     width: 138px;
     height: 42px;
-    right: 2.5%;
-    top: 38px;
+    left: 87.4%;
+    top: 34px;
 }
 
 .Tcontact {
@@ -150,7 +151,7 @@ img {
     width: 78px;
     height: 25px;
     left: 28px;
-    top: 7px;
+    top: 9px;
     z-index: 10;
     
     font-family: 'Sen';
@@ -162,6 +163,7 @@ img {
     color: #FFFFFF;
     
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.17);
+
 }
 
 .group45 {
