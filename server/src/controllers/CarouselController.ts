@@ -38,9 +38,9 @@ export default class CarouselController implements Crud {
         const isAnyUndefined = Citi.areValuesUndefined(link, id);
         if(isAnyUndefined) return response.status(400).send();
 
-        const userWithUpdatedValues = { link };
+        const carouselWithUpdatedValues = { link };
 
-        const { httpStatus, messageFromUpdate } = await Citi.updateValue(Carousel, id, userWithUpdatedValues);
+        const { httpStatus, messageFromUpdate } = await Citi.updateValue(Carousel, id, carouselWithUpdatedValues);
         return response.status(httpStatus).send({ messageFromUpdate });
     }
 
