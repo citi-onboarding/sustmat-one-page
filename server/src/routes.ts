@@ -9,5 +9,4 @@ routes.get('/carousel', carouselController.get);
 routes.delete('/carousel/:id', carouselController.delete);
 routes.put('/carousel/:id', carouselController.update);
 
-
 export default routes;
