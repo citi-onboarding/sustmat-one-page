@@ -38,7 +38,7 @@ img {
     left: 80.6%;
     top: 43px;
     
-    font-family: 'Sen';
+    font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -59,12 +59,12 @@ img {
 
 .Ttechnology {
     position: absolute;
-    width: 113px;
+    width: 120px;
     height: 25px;
     left: 68.4%;
     top: 43px;
     
-    font-family: 'Sen';
+    font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -86,12 +86,12 @@ img {
 
 .Tadvantages {
     position: absolute;
-    width: 113px;
+    width: 120px;
     height: 25px;
     left: 56.2%;
     top: 43px;
     
-    font-family: 'Sen';
+    font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -118,7 +118,7 @@ img {
     left: 47.7%;
     top: 43px;
     
-    font-family: 'Sen';
+    font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -154,7 +154,7 @@ img {
     top: 9px;
     z-index: 10;
     
-    font-family: 'Sen';
+    font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
