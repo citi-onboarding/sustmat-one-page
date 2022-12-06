@@ -2,17 +2,30 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
 position: absolute;
-width: 1366px;
+max-width: 1366px;
 height: 415px;
 left: 0%;
 margin: auto;
+right: 0%;
 top: 3162px;
+display: flex;
+flex-direction: row;
+
+button {
+    background-color: transparent;
+    padding-left: 0px;
+    width: 46px;
+    height: 48px;
+    border-radius: 50%;
+    border: transparent;
+    cursor: pointer;
+}
 
 .group43 {
     position: absolute;
     left: 8.78%;
     right: 81.11%;
-    top: 41.2%;
+    top: 42.65%;
     bottom: 32.77%;
 }
 
@@ -20,7 +33,7 @@ top: 3162px;
     position: absolute;
     left: 84.64%;
     right: 12.28%;
-    top: 47.81%;
+    top: 47.71%;
     bottom: 42.07%;
 }
 
@@ -28,7 +41,7 @@ top: 3162px;
     position: absolute;
     left: 79.73%;
     right: 17.19%;
-    top: 47.47%;
+    top: 47.71%;
     bottom: 42.17%;
 }
 
@@ -50,8 +63,7 @@ top: 3162px;
 
 .vector {
     position: absolute;
-    left: 81.34%;
-    right: 17.35%;
+    right: 220px;
     top: 90.6%;
     bottom: 5.3%;
     
@@ -60,7 +72,7 @@ top: 3162px;
 
 .made {
     position: absolute;
-    left: 70.66%;
+    right: 250px;
     top: 87.46%;
     bottom: 5.25%;
 
@@ -76,7 +88,7 @@ top: 3162px;
 
 .made2 {
     position: absolute;
-    right: 15.19%;
+    right: 195px;
     top: 87.46%;
     bottom: 5.25%;
 
@@ -92,8 +104,7 @@ top: 3162px;
 
 .citi {
     position: absolute;
-    left: 85.25%;
-    right: 11.93%;
+    right: 155px;
     top: 90.20%;
     bottom: 5.23%;
 }
@@ -110,7 +121,8 @@ top: 3162px;
 
 .sustgold {
     position: absolute;
-    left: 21.38%;
+    width: 200px;
+    left: 272px;
     right: 67.2%;
     top: 62.65%;
     bottom: 28.92%;
@@ -130,9 +142,9 @@ top: 3162px;
 
 .desc {
     position: absolute;
-    left: 21.38%;
+    left: 272px;
     right: 37.04%;
-    top: 42.65%;
+    top: 42%;
     bottom: 41.2%;
     max-width: 36.5%;
     

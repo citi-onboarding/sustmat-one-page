@@ -16,13 +16,19 @@ export const Footer: React.FC = () => {
                 <img src={LogoSustMat} alt="" />
             </div>
             <div className="youtube">
+                <button>
                 <img src={YouTb} alt="" />
+                </button>
             </div>
             <div className="facebook">
+                <button>
                 <img src={Face} alt="" />
+                </button>
             </div>
             <div className="instagram">
+                <button>
                 <img src={Insta} alt="" />
+                </button>
             </div>
             <div className="group1">
                 <div className="vector">
