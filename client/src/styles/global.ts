@@ -23,8 +23,8 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: ${(props) => props.theme.colors.background};
-    color: ${(props) => props.theme.colors.text};
+    background: white;
+    color: white;
     font: 400 16px Roboto, sans-serif;
     -webkit-font-smoothing: antialiased;
   }

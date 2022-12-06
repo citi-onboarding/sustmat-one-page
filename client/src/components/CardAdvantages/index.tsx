@@ -1,5 +1,5 @@
 import React from "react";
-import { CardContainer, CardDescription, CardTitle } from "./styles";
+import { Buttom, ButtomText, CardContainer, CardDescription, CardTitle, IconContainer } from "./styles";
 
 type CardProps = {
     title: string;
@@ -9,8 +9,15 @@ type CardProps = {
 export const AdvantagesCard: React.ElementType = ({title, description}: CardProps) =>{
     return(
         <CardContainer>
+            <IconContainer>             
+            </IconContainer>
             <CardTitle>{title}</CardTitle>
             <CardDescription>{description}</CardDescription>
+            <Buttom>
+                <ButtomText>
+                    Know More
+                </ButtomText>
+            </Buttom>
         </CardContainer>
     );
 }
