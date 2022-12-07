@@ -7,7 +7,7 @@ export const AdvantagesSection: React.FC = () =>{
     return(
         <AdvantagesSectionContainer>
             <TitleSection>
-                Advantages of the sustmat’s <br/> liquefation mining
+                Advantages of the <span id="SustmatWord">sustmat’s</span> <br/> liquefation mining
             </TitleSection>
             <AdvantagesCardContainer>
                 <AdvantagesCard title={"Less damage to the nature"} description={"With our smart, innovative and disruptive technology we are able to mine gold sustainably"}/>

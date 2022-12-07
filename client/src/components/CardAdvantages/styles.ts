@@ -8,7 +8,8 @@ export const CardContainer = styled.div`
     width: 335px;
     height: 221px;
 
-    margin: 352px 65px 113px 0px;
+    margin: 32.5px;
+
 
     border-radius: 11px;
     display: flex;
