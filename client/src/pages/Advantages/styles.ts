@@ -7,7 +7,7 @@ export const AdvantagesSectionContainer = styled.div`
     justify-content: center;
     width: 1440px;
     height: 657px;
-    background-color: white;
+    background-color: grey;
 
 `;
 
