@@ -1,5 +1,7 @@
 import { Home } from './home';
+import { HiringSection } from './hiringsection';
 
 export {
-    Home
+    Home,
+    HiringSection
 };
