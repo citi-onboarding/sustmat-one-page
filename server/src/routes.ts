@@ -1,13 +1,13 @@
 import express from 'express';
-import CarouselController from '@controllers/CarouselController';
+import UserController from '@controllers/UserController'
 
 const routes = express.Router();
-const carouselController = new CarouselController();
+const userController = new UserController();
 
-routes.post('/carousel', carouselController.create);
-routes.get('/carousel', carouselController.get);
-routes.delete('/carousel/:id', carouselController.delete);
-routes.put('/carousel/:id', carouselController.update);
+routes.post('/user', userController.create);
+routes.get('/user', userController.get);
+routes.delete('/user/:id', userController.delete);
+routes.put('/user/:id', userController.update);
 
 
 export default routes;
