@@ -1,22 +1,30 @@
 import React from "react";
 import { BannerContainer } from "../banner/styles";
-import { BlueDetails } from "../../assets";
+import { BlueDetails, MouseVectorStart } from "../../assets";
 import { MouseVector } from "../../assets";
-import { ScrollContainer } from "../banner/styles";
+import { ScrollContainer, TextContainer} from "../banner/styles";
 
 export const Banner: React.FC = () =>{
     return(
         <BannerContainer>
-            <p>
+            <p id="SmallTitle">
                 Be part of the future
             </p>
-            <h1>
-                Sustainable
+            <h1 id="BigTitle">
+                Sustainable <br/> Mining
             </h1>
-            <h2>
-                Mining
-            </h2>
             <img id="BlueDetails" src={BlueDetails} alt='Blue Details on both sides of the banner'/>
+            <ScrollContainer>
+                <img id="MouserVector1" src={MouseVectorStart} alt='Beggining of the Scroll animation'/>
+                <TextContainer>
+                <h1 id ="RollPT">
+                    Role para baixo
+                </h1>
+                <p id="RollEN">
+                    Scroll down
+                </p>
+                </TextContainer>
+            </ScrollContainer>
         </BannerContainer>
     );
 }
