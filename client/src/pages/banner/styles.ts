@@ -4,8 +4,8 @@ import { MouseVectorEnd } from "../../assets";
 
 export const BannerContainer = styled.div`
     background-color: #F7F7F7;
-
-    width: 1440px;
+    margin: auto;
+    max-width: 1440px;
     height: 636px;
 
     display: flex;
@@ -30,7 +30,8 @@ export const BannerContainer = styled.div`
         line-height: 97.31%;
         z-index: 1;
         text-align: center;
-        margin-bottom: 239px;
+        margin-top: 0px;
+        margin-bottom: 0px;
 
 
         background: linear-gradient(288.52deg, #5191F1 40.92%, #7DDCF7 101.83%);
@@ -61,10 +62,9 @@ export const ScrollContainer = styled.div`
 
     width: 202px;
     height: 62.50px;
-    position: absolute;
     display: flex;
     flex-direction: row;
-    margin-top: 540px;
+    margin-top: 152px;
 `;
 
 export const TextContainer = styled.div`

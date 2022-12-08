@@ -8,10 +8,7 @@ import { Banner, Home } from './pages';
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
       <Banner/>
-      <GlobalStyle/>
-    </ThemeProvider>
   );
 }
 
