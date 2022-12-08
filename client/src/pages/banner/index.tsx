@@ -10,8 +10,11 @@ export const Banner: React.FC = () =>{
             <p id="SmallTitle">
                 Be part of the future
             </p>
-            <h1 id="BigTitle">
-                Sustainable <br/> Mining
+            <h1 id="BigTitle1">
+                Sustainable
+            </h1>
+            <h1 id="BigTitle2">
+                Mining
             </h1>
             <img id="BlueDetails" src={BlueDetails} alt='Blue Details on both sides of the banner'/>
             <ScrollContainer>
