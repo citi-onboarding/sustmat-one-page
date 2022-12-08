@@ -1,28 +1,37 @@
 import styled from "styled-components";
 
+export const Components = styled.div`
+width: 100%;
+display: flex;
+justify-content: center;
+`
+
 export const HiringContainer = styled.div`
-position: absolute;
-width: 1366px;
+position: relative;
+max-width: 1366px;
 height: 617px;
-left: 0px;
+left: 0%;
+margin: auto;
 top: 2065px;
 
-background: yellow;
+display: flex;
+flex-direction: row;
 
 .vector21 {
     position: absolute;
     z-index:10;
     width: 0px;
-    height: 186px;
-    left: 43.2%;
+    height: 13.8%;
+    min-right: 600px;
+    left: 42.7%;
     top: 9.2%;
 }
 
 .beapart {
     position: absolute;
-    width: 297px;
+    width: 24%;
     height: 24px;
-    left: 39.1%;
+    left: 38.1%;
     top: 23.3%;
     
     font-family: 'Sen', sans-seriff;
@@ -38,9 +47,9 @@ background: yellow;
 
 .wearehiring {
     position: absolute;
-    width: 588px;
+    width: 43%;
     height: 43px;
-    left: 28.5%;
+    left: 28.4%;
     top: 12.2%;
     
     font-family: 'Sen', sans-seriff;
@@ -52,14 +61,14 @@ background: yellow;
     
     color: #343434;
 }
-
-.hiringcard {
+`
+/*
+export const Card = styled.div` {
     position: absolute;
     width: 315px;
     height: 315px;
     left: 116px;
-    top: 202px;    
-}
+    top: 202px;
 
 .knowmorebutton {
     position: absolute;
@@ -166,4 +175,4 @@ background: yellow;
     bottom: 43.81%;
 }
 
-`
+` */
