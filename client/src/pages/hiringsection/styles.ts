@@ -23,7 +23,7 @@ flex-direction: row;
     width: 0px;
     height: 13.8%;
     min-right: 600px;
-    left: 42.7%;
+    left: 42.6%;
     top: 9.2%;
 }
 

@@ -9,11 +9,11 @@ type CardProps = {
 export const CardComponent: React.ElementType = ({technician}:CardProps) => {
     return (
     <StyledCard>
-        <div className="knowmorebutton">
+        <button className="knowmorebutton">
             <div className="rectangle150">
                     <h1 className="knowmoretext">Know more</h1>
             </div>
-        </div>
+        </button>
         <div className="group447">
             <h1 className="parttime">
                 Part-time

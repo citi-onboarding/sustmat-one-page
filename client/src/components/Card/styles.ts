@@ -7,6 +7,13 @@ height: 315px;
 margin: 40px;
 top: 202px;
 
+button {
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-radius: 50%;
+}
+
 .knowmorebutton {
 position: absolute;
 z-index: 10;
@@ -43,6 +50,10 @@ bottom: 0%;
 
 background: linear-gradient(278.87deg, #6AA5FE 27.2%, #73D5E5 111.13%);
 border-radius: 52px;
+
+&:hover {
+    background: linear-gradient(47.06deg, #478DF7 -15.87%, #73D5E5 143.09%);
+}
 }
 
 .group447 {
