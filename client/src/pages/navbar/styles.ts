@@ -3,7 +3,7 @@ import styled from 'styled-components';
 //implementar animação cores.
 export const NavbarContainer = styled.div`
 position: fixed;
-z-index= 10;
+z-index: 10;
 max-width: 1366px;
 height: 110px;
 left: 0px;
