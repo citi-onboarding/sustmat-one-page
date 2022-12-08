@@ -53,7 +53,7 @@ button {
     bottom: 42.17%;
 }
 
-.group1 {
+.group {
     position: absolute;
     left: 68.16%;
     right: 11.93%;
