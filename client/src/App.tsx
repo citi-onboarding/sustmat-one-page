@@ -4,15 +4,11 @@ import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
 
 import { Home } from './pages';
-import { Footer } from './pages';
 import { Navbar } from './pages';
 
 function App() {
   return (
-    <>
       <Navbar/>
-      <Footer/>
-    </>
   );
 }
 
