@@ -19,8 +19,8 @@ function App() {
 export default App;
 
 /*
-    <ThemeProvider theme={theme}>
-      <Home/>
-      <GlobalStyle/>
-    </ThemeProvider>
+<ThemeProvider theme={theme}>
+<Home/>
+<GlobalStyle/>
+</ThemeProvider>
 */
