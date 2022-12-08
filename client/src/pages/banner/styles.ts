@@ -3,10 +3,12 @@ import { MouseVectorStart } from "../../assets";
 import { MouseVectorEnd } from "../../assets";
 
 export const BannerContainer = styled.div`
-    background-color: #F7F7F7;
+    background-color: white;
     margin: auto;
     max-width: 1440px;
     height: 636px;
+    position: relative;
+    top: 110px;
 
     display: flex;
     justify-content: center;
