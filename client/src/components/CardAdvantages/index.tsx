@@ -4,13 +4,13 @@ import { Buttom, ButtomText, CardContainer, CardDescription, CardTitle, IconCont
 type CardProps = {
     title: string;
     description: string;
+    icon: string;
 }
 
-export const AdvantagesCard: React.ElementType = ({title, description}: CardProps) =>{
+export const AdvantagesCard: React.ElementType = ({title, description, icon}: CardProps) =>{
     return(
         <CardContainer>
-            <IconContainer>             
-            </IconContainer>
+            <IconContainer>{icon}</IconContainer>
             <CardTitle>{title}</CardTitle>
             <CardDescription>{description}</CardDescription>
             <Buttom>

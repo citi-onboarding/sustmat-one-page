@@ -42,6 +42,7 @@ export const Buttom = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 0.8s;
     
     width: 226px;
     height: 38px;
@@ -49,6 +50,11 @@ export const Buttom = styled.div`
     background: linear-gradient(278.87deg, #6AA5FE 27.2%, #73D5E5 111.13%);
     position: absolute;
     margin-top: 200px;
+
+    &:hover{
+        background: linear-gradient(47.06deg, #478DF7 -15.87%, #73D5E5 143.09%);
+        cursor: pointer;
+    }
 `;
 
 export const IconContainer = styled.div`
@@ -59,13 +65,16 @@ export const IconContainer = styled.div`
     border-radius: 50%;
     position: absolute;
     margin-top: -25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
-    font-family: 'Sen';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
 `;
 
 export const ButtomText = styled.p`
-    
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
 `;
