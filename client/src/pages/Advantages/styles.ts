@@ -3,7 +3,9 @@ import { backgroundimage } from '../../assets';
 
 export const AdvantagesSectionContainer = styled.div`
     display: flex;
+    top: 775px;
     margin: auto;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
