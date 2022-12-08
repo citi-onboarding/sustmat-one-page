@@ -33,9 +33,9 @@ img {
 
 .Tteam {
     position: absolute;
-    width: 58px;
+    width: 80px;
     height: 25px;
-    left: 80.6%;
+    left: 80%;
     top: 43px;
     
     font-family: 'Sen', sans-serif;
@@ -113,7 +113,7 @@ img {
 
 .Thome {
     position: absolute;
-    width: 62px;
+    width: 90px;
     height: 25px;
     left: 47.7%;
     top: 43px;
