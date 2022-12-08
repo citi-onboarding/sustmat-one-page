@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { backgroundimage } from '../../assets';
 
 export const AdvantagesSectionContainer = styled.div`
     display: flex;
@@ -8,8 +9,11 @@ export const AdvantagesSectionContainer = styled.div`
     justify-content: center;
     max-width: 1440px;
     height: 657px;
-    background-color: grey;
-
+    background-color: white;
+    background-repeat: no repeat;
+    background-image: url(${backgroundimage});
+    background-repeat: no-repeat;
+    background-position: left bottom;
 `;
 
 export const TitleSection = styled.h1`
@@ -20,7 +24,7 @@ export const TitleSection = styled.h1`
     line-height: 49px;
     text-align: right;
     color: #373737;
-    margin: 95px 72px 84px 640px;
+    margin: 95px 55px 84px 640px;
     
     #SustmatWord{
         background: linear-gradient(288.52deg, #5191F1 40.92%, #7DDCF7 101.83%);
