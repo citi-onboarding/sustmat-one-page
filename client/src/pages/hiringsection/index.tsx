@@ -1,11 +1,14 @@
 import React from "react";
 import { HiringContainer } from "./styles";
 import { Certinho } from "../../assets";
+import { BlueBar } from "../../assets";
 
 export const HiringSection: React.FC = () => {
     return (
         <HiringContainer>
-            <div className="vector21"></div>
+            <div className="vector21">
+                <img src={BlueBar} alt="" />
+            </div>
             <h1 className="wearehiring">We are hiring!</h1>
             <h1 className="beapart">Be a part of the sustmat team.</h1>
             <div className="hiringcard">
@@ -22,7 +25,7 @@ export const HiringSection: React.FC = () => {
                     </h1>
                     <h1 className="requirements">Requirements</h1>
                     <h1 className="technician">Chemistry Technician</h1>
-                    <img src={Certinho} alt="" />
+                    <img className="certinho" src={Certinho} alt="" />
                 </div>
             </div>
         </HiringContainer>

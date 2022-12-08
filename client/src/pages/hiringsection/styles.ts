@@ -7,27 +7,23 @@ height: 617px;
 left: 0px;
 top: 2065px;
 
-background: red;
+background: yellow;
 
 .vector21 {
     position: absolute;
+    z-index:10;
     width: 0px;
     height: 186px;
-    left: 777px;
-    top: 57px;
-
-    transform: rotate(90deg);
-    background: linear-gradient(180deg, #6AB7FE 0%, #73D5E5 100%);
-    border: 6px solid;
-    border-image-source: linear-gradient(180deg, #6AB7FE 0%, #73D5E5 100%);
+    left: 43.2%;
+    top: 9.2%;
 }
 
 .beapart {
     position: absolute;
     width: 297px;
     height: 24px;
-    left: 535px;
-    top: 144px;
+    left: 39.1%;
+    top: 23.3%;
     
     font-family: 'Sen', sans-seriff;
     font-style: normal;
@@ -44,8 +40,8 @@ background: red;
     position: absolute;
     width: 588px;
     height: 43px;
-    left: 389px;
-    top: 85px;
+    left: 28.5%;
+    top: 12.2%;
     
     font-family: 'Sen', sans-seriff;
     font-style: normal;
@@ -162,7 +158,7 @@ background: red;
     color: #373737;
 }
 
-img {
+.certinho {
     position: absolute;
     left: 6.35%;
     right: 86.03%;
