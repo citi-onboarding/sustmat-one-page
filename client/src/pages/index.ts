@@ -1,7 +1,7 @@
-import { Home } from './home';
 import { HiringSection } from './hiringsection';
+import { Navbar } from './navbar';
 
 export {
-    Home,
-    HiringSection
+    HiringSection,
+    Navbar
 };
