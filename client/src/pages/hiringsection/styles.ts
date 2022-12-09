@@ -15,15 +15,14 @@ margin: auto;
 top: 2065px;
 
 display: flex;
-flex-direction: row;
+justify-content: center;
 
-.vector21 {
+#vector21 {
     position: absolute;
     z-index:10;
-    width: 0px;
-    height: 13.8%;
-    min-right: 600px;
-    left: 42.6%;
+    width: 13.6%;
+    height: 1%;
+    left: 43.1%;
     top: 9.2%;
 }
 
