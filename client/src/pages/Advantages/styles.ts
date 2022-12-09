@@ -9,11 +9,12 @@ export const AdvantagesSectionContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 1440px;
+    max-width: 1366px;
     height: 657px;
     background-color: white;
     background-repeat: no repeat;
     background-image: url(${backgroundimage});
+    background-size: 49% 86%;
     background-repeat: no-repeat;
     background-position: left bottom;
 `;
@@ -26,7 +27,8 @@ export const TitleSection = styled.h1`
     line-height: 49px;
     text-align: right;
     color: #373737;
-    margin: 95px 55px 84px 640px;
+    margin: 95px 5% 84px 49%;
+    white-space: nowrap;
     
     #SustmatWord{
         background: linear-gradient(288.52deg, #5191F1 40.92%, #7DDCF7 101.83%);
