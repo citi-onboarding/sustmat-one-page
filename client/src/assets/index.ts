@@ -1,5 +1,7 @@
 import LogoCITi from './logo.png';
-import LogoSustMat from './Group 43.png'
+import Certinho from './certinho.svg'
+import BlueBar from './Vector 21.png'
+import LogoSustMat from './Group 43.png';
 import Face from './facebook.png'
 import Insta from './instagram.png'
 import YouTb from './youtube.png'
@@ -13,5 +15,7 @@ export {
     Face,
     Insta,
     CitiBranco,
-    Heart
+    Heart,
+    BlueBar,
+    Certinho,
 };
