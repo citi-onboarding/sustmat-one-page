@@ -5,8 +5,8 @@ import { MouseVectorEnd } from "../../assets";
 export const BannerContainer = styled.div`
     background-color: white;
     margin: auto;
-    max-width: 1440px;
-    height: 636px;
+    max-width: 1366px;
+    height: 665px;
     position: relative;
     top: 110px;
 
@@ -63,6 +63,8 @@ export const BannerContainer = styled.div`
         z-index: 0;
         position: absolute;
         top: 318px;
+        left: 9%;
+        width: 84%;
         bottom: 133px;
     }
 `;
