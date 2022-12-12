@@ -1,10 +1,11 @@
-import { Home } from './home';
+import { HiringSection } from './hiringsection';
+import { Navbar } from './navbar';
+import { Footer } from './footer';
 import { AdvantagesSection } from './Advantages';
 
 export {
-    Home
-};
-
-export {
+    HiringSection,
+    Navbar,
+    Footer,
     AdvantagesSection
-};
+}
