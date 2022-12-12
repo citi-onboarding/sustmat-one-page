@@ -25,6 +25,7 @@ export const CardTitle = styled.h1`
     color: #373737;
     text-align: center;
     margin-top: 71px;
+    margin-bottom: 0px;
 `;
 
 export const CardDescription = styled.p`

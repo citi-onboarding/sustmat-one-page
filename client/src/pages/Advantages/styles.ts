@@ -36,7 +36,7 @@ export const TitleSection = styled.h1`
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-fill-color: transparent;   
-        font-weight: 700;
+        font-weight: 900;
     }
 `;
 
