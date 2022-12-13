@@ -8,6 +8,10 @@ import Insta from './instagram.png'
 import YouTb from './youtube.png'
 import CitiBranco from './CITi.png'
 import Heart from './Vector.png'
+import BlueDetails from './BlueDetails.png';
+import MouseVector from './MouseVector.png';
+import MouseVectorStart from './MouseVectorStart.svg';
+import MouseVectorEnd from './MouseVectorEnd.svg';
 
 export {
     LogoCITi,
@@ -19,5 +23,9 @@ export {
     Heart,
     BlueBar,
     Certinho,
-    backgroundimage
+    backgroundimage,
+    BlueDetails,
+    MouseVector,
+    MouseVectorStart,
+    MouseVectorEnd
 };
