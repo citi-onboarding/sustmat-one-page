@@ -1,18 +1,24 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavbarContainer } from "./styles";
 import { LogoSustMat } from "../../assets";
 
 export const Navbar: React.FC = () => {
+    const [changeColor1, SetChangeColor1] = useState (true)
+    const [changeColor2, SetChangeColor2] = useState (true)
+    const [changeColor3, SetChangeColor3] = useState (true)
+    const [changeColor4, SetChangeColor4] = useState (true)
+    const [changeColor5, SetChangeColor5] = useState (true)
+
     return (
         <NavbarContainer>
             <img src={LogoSustMat} alt="" />
-            <button className="Tteam">Team</button>
-            <button className="Ttechnology">Technology</button>
-            <button className="Tadvantages">Advantages</button>
-            <button className="Thome">Home</button>
+            <button onClick={() => SetChangeColor1(!changeColor1)} className= {changeColor1? 'Tteam' : 'blueteam' }>Team</button>
+            <button onClick={() => SetChangeColor2(!changeColor2)} className= {changeColor2? 'Ttechnology' : 'bluetech' }>Technology</button>
+            <button onClick={() => SetChangeColor3(!changeColor3)} className= {changeColor3? 'Tadvantages' : 'blueadva' }>Advantages</button>
+            <button onClick={() => SetChangeColor4(!changeColor4)} className= {changeColor4? 'Thome' : 'bluehome' }>Home</button>
             <div className="contact">
                 <div className="group45">
-                    <button className="rectangle150">
+                    <button onClick={() => SetChangeColor5(!changeColor5)} className= {changeColor5? 'rectangle150' : 'bluerectangle150' }>
                         <div className="Tcontact">Contact</div>
                     </button>
                 </div>
