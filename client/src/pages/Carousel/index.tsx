@@ -16,7 +16,7 @@ export const Carousel: React.FC = () => {
                     By applying vibrations, the grains are arranged 
                     better and closer to each other. If this liquid is the 
                     gold extracting solution, as it rises and passes through the 
-                    material, it will extract the gold. A system of the equipment 
+                    material, it will extract the gold. <b/> A system of the equipment 
                     separates the layers, allowing the separation of the "metals" 
                     from the tailings. A separating plate is introduced and the layer 
                     of "metals" is dropped and removed. After that, the separator plate 

@@ -5,7 +5,7 @@ export const CarouselContainer = styled.div`
     max-width: 1366px;
     height: 633px;
     margin: auto;
-    background: green;
+    background: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -29,6 +29,7 @@ export const TextContainer = styled.div`
 
     p{
         width: 460px;
+        height: 266px;
         font-family: 'Sen';
         font-style: normal;
         font-weight: 400;
@@ -47,6 +48,10 @@ export const Button = styled.div`
 
     background: linear-gradient(278.87deg, #6AA5FE 27.2%, #73D5E5 111.13%);
 
+    &:hover{
+        background: linear-gradient(47.06deg, #478DF7 -15.87%, #73D5E5 143.09%);
+        cursor: pointer;
+    }
 `
 export const ButtonText = styled.p`
     font-family: 'Sen';
