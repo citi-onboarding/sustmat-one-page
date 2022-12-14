@@ -12,7 +12,6 @@ max-width: 1366px;
 height: 617px;
 left: 0%;
 margin: auto;
-top: 2065px;
 
 display: flex;
 justify-content: center;
