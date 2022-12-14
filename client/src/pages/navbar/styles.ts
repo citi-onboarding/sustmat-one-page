@@ -1,4 +1,6 @@
 import styled from 'styled-components'; 
+import { useState } from 'react';
+import { Navbar } from '.';
 
 //implementar animação cores.
 export const NavbarContainer = styled.div`
@@ -31,6 +33,26 @@ img {
     top: 16px;    
 }
 
+.blueteam {
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    left: 80%;
+    top: 43px;
+    
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    background: linear-gradient(280.74deg, #52A5E1 54.39%, #7EDAF6 138.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
 .Tteam {
     position: absolute;
     width: 80px;
@@ -45,16 +67,26 @@ img {
     line-height: 24px;
     
     color: #222222;
+}
 
-    &:hover {
-        font-weight: 700;
+.bluetech {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 68.4%;
+    top: 43px;
+    
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
 
-        background: linear-gradient(280.74deg, #52A5E1 54.39%, #7EDAF6 138.84%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-    }
+    background: linear-gradient(280.74deg, #52A5E1 54.39%, #7EDAF6 138.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .Ttechnology {
@@ -72,16 +104,26 @@ img {
     text-align: center;
     
     color: #222222;
+}
 
-    &:hover {
-        font-weight: 700;
+.blueadva {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 56.2%;
+    top: 43px;
+    
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
 
-        background: linear-gradient(280.74deg, #52A5E1 54.39%, #7EDAF6 138.84%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-    }
+    background: linear-gradient(280.74deg, #52A5E1 54.39%, #7EDAF6 138.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .Tadvantages {
@@ -99,16 +141,26 @@ img {
     text-align: center;
     
     color: #222222;
+}
 
-    &:hover {
-        font-weight: 700;
-        
-        background: linear-gradient(280.74deg, #52A5E1 54.39%, #7EDAF6 138.84%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-    }
+.bluehome {
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    left: 47.7%;
+    top: 43px;
+    
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    background: linear-gradient(280.74deg, #52A5E1 54.39%, #7EDAF6 138.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .Thome {
@@ -126,16 +178,6 @@ img {
     text-align: center;
 
     color: #222222;
-
-    &:hover {
-        font-weight: 700;
-        
-        background: linear-gradient(280.74deg, #52A5E1 54.39%, #7EDAF6 138.84%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-    }
 }
 
 .contact {
@@ -174,6 +216,17 @@ img {
     top: 0px;
 }
 
+.bluerectangle150 {
+    position: absolute;
+    width: 138px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(11.36deg, #4688EA -32.18%, #73D5E5 201.12%);
+    border-radius: 21px;
+}
+
 .rectangle150 {
     position: absolute;
     width: 138px;
@@ -183,10 +236,6 @@ img {
     
     background: linear-gradient(278.87deg, #6AA5FE 27.2%, #73D5E5 111.13%);
     border-radius: 21px;
-
-    &:hover {
-        background: linear-gradient(11.36deg, #4688EA -32.18%, #73D5E5 201.12%);
-    }
 }
 
 .rectangle2 {

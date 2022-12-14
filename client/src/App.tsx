@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <Navbar/> 
-      <Banner/>
-      <AdvantagesSection/>
-      <HiringSection/>
+      <section id='banner'><Banner/></section>
+      <section id='advantages'><AdvantagesSection/></section>
+      <section id='team'><HiringSection/></section>
       <Footer/>
     </>
   )
