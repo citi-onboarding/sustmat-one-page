@@ -8,7 +8,8 @@ export const BannerContainer = styled.div`
     max-width: 1366px;
     height: 665px;
     position: relative;
-    top: 110px;
+    margin-top: 90px;
+
 
     display: flex;
     justify-content: center;
