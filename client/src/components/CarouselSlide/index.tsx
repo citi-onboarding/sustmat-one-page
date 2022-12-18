@@ -13,14 +13,24 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div>
+      <div style={{width: '50%'}}>
         <h2> Single Item</h2>
         <Slider {...settings}>
           <div>
-            <h3>1</h3>
-          </div>
+            <img
+              style={{
+                width: '200px'
+              }}
+              src="https://cdn.esawebb.org/archives/images/screen/potm2209a.jpg" alt="" 
+            />
+          </div> 
           <div>
-            <h3>2</h3>
+            <img
+              style={{
+                width: '200px'
+              }}
+              src="https://cdn.esawebb.org/archives/images/screen/potm2209a.jpg" alt="" 
+            />
           </div>
         </Slider>
       </div>

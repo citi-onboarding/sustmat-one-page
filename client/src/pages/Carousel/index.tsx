@@ -1,6 +1,7 @@
 import React from "react";
 import { BlueBar } from "../../assets";
-import { CarouselContainer, TextContainer, Button, ButtonText } from "../Carousel/styles";
+import { CarouselContainer, TextContainer, Button, ButtonText, Img, Title, Description } from "../Carousel/styles";
+import { SimpleSlider } from "../../components";
 
 
 
@@ -8,11 +9,11 @@ export const Carousel: React.FC = () => {
     return(
         <CarouselContainer>
             <TextContainer>
-                <img id="BlueDetail" src={BlueBar} alt='Blue Bar'/>
-                <h1>
+                <Img id="BlueDetail" src={BlueBar} alt='Blue Bar'/>
+                <Title>
                     Who we are and our <br/> technology
-                </h1>
-                <p>
+                </Title>
+                <Description>
                     By applying vibrations, the grains are arranged 
                     better and closer to each other. If this liquid is the 
                     gold extracting solution, as it rises and passes through the 
@@ -25,13 +26,14 @@ export const Carousel: React.FC = () => {
                     to circulate detoxifying and neutralizing solutions, which guarantee 
                     that the tailings will be the right material for the development of 
                     plants and animals.
-                </p>
+                </Description>
                 <Button>
                     <ButtonText>
                         Contact us
                     </ButtonText>
                 </Button>
             </TextContainer>
+            <SimpleSlider />
         </CarouselContainer>
     );
 }

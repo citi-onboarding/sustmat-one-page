@@ -3,39 +3,20 @@ import styled from "styled-components";
 
 export const CarouselContainer = styled.div`
     max-width: 1366px;
-    height: 633px;
     margin: auto;
-    background: white;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    padding-top: 88px;
+    padding-left: 108px;
 `
-
-
 
 export const TextContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    h1{
-        font-family: 'Sen';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 36px;
-    }
-
-    p{
-        width: 460px;
-        height: 266px;
-        font-family: 'Sen';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-    }
-
+    align-items: flex-start;
+    width: 35%;
 `
 
 export const Button = styled.div`
@@ -52,6 +33,7 @@ export const Button = styled.div`
         background: linear-gradient(47.06deg, #478DF7 -15.87%, #73D5E5 143.09%);
         cursor: pointer;
     }
+    margin-top: 24px;
 `
 export const ButtonText = styled.p`
     font-family: 'Sen';
@@ -61,3 +43,28 @@ export const ButtonText = styled.p`
     text-align: center;
     color: #FFFFFF;
     `
+
+export const Img = styled.img``;
+
+export const Title = styled.h1`
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #373737;
+`;
+
+export const Description = styled.p`
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 121.31%;
+    /* or 19px */
+
+    text-align: justify;
+
+    color: #373737;
+`;
