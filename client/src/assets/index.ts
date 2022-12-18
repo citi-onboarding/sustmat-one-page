@@ -12,6 +12,7 @@ import BlueDetails from './BlueDetails.png';
 import MouseVector from './MouseVector.png';
 import MouseVectorStart from './MouseVectorStart.svg';
 import MouseVectorEnd from './MouseVectorEnd.svg';
+import SendIcon from './sendIcon.svg'
 
 export {
     LogoCITi,
@@ -27,5 +28,6 @@ export {
     BlueDetails,
     MouseVector,
     MouseVectorStart,
-    MouseVectorEnd
+    MouseVectorEnd,
+    SendIcon
 };
