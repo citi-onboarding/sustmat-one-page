@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { VideoContainer } from "./styles";
 
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
+      className: "center",
+      centerMode: true,
       dots: true,
       infinite: true,
       speed: 500,
@@ -14,24 +17,13 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div style={{width: '50%'}}>
-        <h2> Single Item</h2>
         <Slider {...settings}>
-          <div>
-            <img
-              style={{
-                width: '200px'
-              }}
-              src="https://cdn.esawebb.org/archives/images/screen/potm2209a.jpg" alt="" 
-            />
-          </div> 
-          <div>
-            <img
-              style={{
-                width: '200px'
-              }}
-              src="https://cdn.esawebb.org/archives/images/screen/potm2209a.jpg" alt="" 
-            />
-          </div>
+          <VideoContainer>
+            <video src="https://www.youtube.com/watch?v=YOMk5yMpga0"></video>
+          </VideoContainer>
+          <VideoContainer>
+            <video src="https://www.youtube.com/watch?v=YOMk5yMpga0"></video>
+          </VideoContainer>
         </Slider>
       </div>
     );
