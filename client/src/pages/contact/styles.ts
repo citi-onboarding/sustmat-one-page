@@ -8,6 +8,9 @@ export const Container = styled.div`
     //filter: blur(2.60695px);
     border-radius: 8px;
     margin: auto;
+    position: relative;
+    margin-top: 115px !important;
+    z-index: 1;
     //padding-top: 41.71px;
     padding: 41.71px 40px 53.18px 52.38px ;
     box-sizing: border-box;
@@ -23,6 +26,9 @@ export const Container = styled.div`
         border-radius: 0;
         background: none;
     }
+    .ant-select-selection__placeholder{
+  color : blue;
+}
 `;
 
 export const Title = styled.h1`

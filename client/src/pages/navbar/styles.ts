@@ -4,20 +4,20 @@ import { Navbar } from '.';
 
 //implementar animação cores.
 export const NavbarContainer = styled.div`
-position: fixed;
-z-index: 11;
-max-width: 1366px;
-height: 110px;
-left: 0px;
-margin: auto;
-top: 0px;
-filter: drop-shadow(0px -6px 25px rgba(0, 0, 0, 0.24));
+    position: fixed;
+    z-index: 11;
+    max-width: 1366px;
+    height: 110px;
+    left: 0px;
+    margin: auto;
+    top: 0px;
+    filter: drop-shadow(0px -6px 25px rgba(0, 0, 0, 0.24));
 
-background: #FFFFFF;
-box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
-right: 0%;
-display: flex;
-flex-direction: row;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
+    right: 0%;
+    display: flex;
+    flex-direction: row;
 
 button {
     background-color: transparent;

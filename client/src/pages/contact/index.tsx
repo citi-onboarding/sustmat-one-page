@@ -15,39 +15,50 @@ export const ContactUs: React.FC = () => {
             <Title>Talk to us</Title>
             <Form
                 name="basic"
-                initialValues={{ remember: true }}
                 onFinish={onFinish}
                 autoComplete="off"
-                style={{
-                    width: '100%',
-                }}
             >
                 <Form.Item>
                     <Input 
                         placeholder="Name"
+                        /* color="#ffffff" */
+                        style={{
+                            color: '#ffffff',
+                        }}
                     />
                 </Form.Item>
                 <InformationContainer>
                     <Form.Item>
                         <Input 
                             placeholder="Email"
+                            style={{
+                                color: '#ffffff',
+                            }}
                         />
                     </Form.Item>
                     <Form.Item>
                         <Input 
                             placeholder="Phone"
+                            style={{
+                                color: '#ffffff',
+                            }}
                         />
                     </Form.Item>
                 </InformationContainer>
                 <Form.Item>
                     <Input 
-                        placeholder="How you Met SustMat"
-                        color="black"
+                        placeholder="How you Met SustMat?"
+                        style={{
+                            color: '#ffffff',
+                        }}
                     />
                 </Form.Item>
                 <Form.Item>
                     <Input 
                         placeholder="Why are you contcting us?"
+                        style={{
+                            color: '#ffffff',
+                        }}
                     />
                 </Form.Item>
             </Form>
