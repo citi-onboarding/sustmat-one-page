@@ -5,4 +5,6 @@ export const VideoContainer = styled.div`
     box-shadow: 0px 12px 17px rgba(0, 0, 0, 0.09);
     border-radius: 11px;
     width: 615px;
+    border: 2px solid black;
+    margin: 100px;
 `;
