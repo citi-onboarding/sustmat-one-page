@@ -6,7 +6,7 @@ import { Navbar } from '.';
 export const NavbarContainer = styled.div`
     position: fixed;
     z-index: 11;
-    max-width: 1366px;
+    //max-width: 1366px;
     height: 110px;
     left: 0px;
     margin: auto;
