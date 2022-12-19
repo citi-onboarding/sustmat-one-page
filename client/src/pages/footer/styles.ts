@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
 position: absolute;
-max-width: 1366px;
+max-width: 1336px;
 height: 415px;
 left: 0%;
 margin: auto;
