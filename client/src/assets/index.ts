@@ -13,6 +13,8 @@ import MouseVector from './MouseVector.png';
 import MouseVectorStart from './MouseVectorStart.svg';
 import MouseVectorEnd from './MouseVectorEnd.svg';
 import SendIcon from './sendIcon.svg'
+import arrowRight from './arrowRight.svg';
+import arrowLeft from './arrowLeft.svg';
 
 export {
     LogoCITi,
@@ -29,5 +31,7 @@ export {
     MouseVector,
     MouseVectorStart,
     MouseVectorEnd,
-    SendIcon
+    SendIcon,
+    arrowLeft,
+    arrowRight,
 };
