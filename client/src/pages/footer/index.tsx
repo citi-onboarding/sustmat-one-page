@@ -9,7 +9,7 @@ import { Heart } from "../../assets";
 
 export const Footer: React.FC = () => {
     return(
-        <FooterContainer>
+        <FooterContainer id="Footer">
             <div className="rectangle139"></div>
             <div className="rectangle90"></div>
             <div className="group43">

@@ -11,7 +11,7 @@ export const ContactUs: React.FC = () => {
       };
 
     return (
-        <Container>
+        <Container id="ContactUs">
             <Title>Talk to us</Title>
             <Form
                 name="basic"

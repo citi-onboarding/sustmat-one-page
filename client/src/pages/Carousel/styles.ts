@@ -19,7 +19,8 @@ export const TextContainer = styled.div`
     width: 35%;
 `
 
-export const Button = styled.div`
+export const Button = styled.a`
+    font-style: none;
     width: 178px;
     height: 34.91px;
     border-radius: 52px;
@@ -34,6 +35,7 @@ export const Button = styled.div`
         cursor: pointer;
     }
     margin-top: 24px;
+    text-decoration: none;
 `
 export const ButtonText = styled.p`
     font-family: 'Sen';

@@ -7,7 +7,7 @@ import { url } from "inspector";
 
 export const AdvantagesSection: React.FC = () =>{
     return(
-        <AdvantagesSectionContainer>
+        <AdvantagesSectionContainer id="Advantages">
             <TitleSection>
                 Advantages of the <span id="SustmatWord">sustmat’s</span> <br/> liquefation mining
             </TitleSection>
