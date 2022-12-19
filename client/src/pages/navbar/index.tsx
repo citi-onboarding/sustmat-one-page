@@ -10,23 +10,23 @@ export const Navbar: React.FC = () => {
     const [changeColor5, SetChangeColor5] = useState (true)
 
     return (
-        <NavbarContainer>
+        <NavbarContainer id="Home">
             <img src={LogoSustMat} alt="" />
-            <a href="#team">
+            <a href="#Hiring">
             <button onClick={() => {SetChangeColor1(false); SetChangeColor2(true); SetChangeColor3(true); SetChangeColor4(true); SetChangeColor5(true)}} className= {changeColor1? 'Tteam' : 'blueteam' }>Team</button>
             </a>
-            <a href="#">
+            <a href="#Caurosel">
             <button onClick={() => {SetChangeColor1(true); SetChangeColor2(false); SetChangeColor3(true); SetChangeColor4(true); SetChangeColor5(true)}} className= {changeColor2? 'Ttechnology' : 'bluetech' }>Technology</button>
             </a>
-            <a href="#advantages">
+            <a href="#Advantages">
             <button onClick={() => {SetChangeColor1(true); SetChangeColor2(true); SetChangeColor3(false); SetChangeColor4(true); SetChangeColor5(true)}} className= {changeColor3? 'Tadvantages' : 'blueadva' }>Advantages</button>
             </a>
-            <a href="#banner">
+            <a href="#Banner">
             <button onClick={() => {SetChangeColor1(true); SetChangeColor2(true); SetChangeColor3(true); SetChangeColor4(false); SetChangeColor5(true)}} className= {changeColor4? 'Thome' : 'bluehome' }>Home</button>
             </a>
             <div className="contact">
                 <div className="group45">
-                    <a href="#">
+                    <a href="#ContactUs">
                     <button onClick={() => {SetChangeColor1(true); SetChangeColor2(true); SetChangeColor3(true); SetChangeColor4(true); SetChangeColor5(false)}} className= {changeColor5? 'rectangle150' : 'bluerectangle150' }>
                         <div className="Tcontact">Contact</div>
                     </button>

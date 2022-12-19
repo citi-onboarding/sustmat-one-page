@@ -1,13 +1,11 @@
 import React from "react";
 import { AdvantagesCardContainer, AdvantagesSectionContainer, TitleSection } from "./styles";
 import { AdvantagesCard } from "../../components";
-import { backgroundimage } from "../../assets"
-import { url } from "inspector";
 
 
 export const AdvantagesSection: React.FC = () =>{
     return(
-        <AdvantagesSectionContainer>
+        <AdvantagesSectionContainer id="Advantages">
             <TitleSection>
                 Advantages of the <span id="SustmatWord">sustmat’s</span> <br/> liquefation mining
             </TitleSection>

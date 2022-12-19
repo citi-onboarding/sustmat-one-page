@@ -7,7 +7,7 @@ import { SimpleSlider } from "../../components";
 
 export const Carousel: React.FC = () => {
     return(
-        <CarouselContainer>
+        <CarouselContainer id="Caurosel">
             <TextContainer>
                 <Img id="BlueDetail" src={BlueBar} alt='Blue Bar'/>
                 <Title>
@@ -27,7 +27,7 @@ export const Carousel: React.FC = () => {
                     that the tailings will be the right material for the development of 
                     plants and animals.
                 </Description>
-                <Button>
+                <Button href="#ContactUs">
                     <ButtonText>
                         Contact us
                     </ButtonText>

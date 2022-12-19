@@ -5,7 +5,7 @@ import { ScrollContainer, TextContainer, BannerContainer} from "../Banner/styles
 
 export const Banner: React.FC = () =>{
     return(
-        <BannerContainer>
+        <BannerContainer id="Banner">
             <p id="SmallTitle">
                 Be part of the future
             </p>
