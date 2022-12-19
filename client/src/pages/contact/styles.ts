@@ -25,10 +25,11 @@ export const Container = styled.div`
         border-right: none;
         border-radius: 0;
         background: none;
+        ::placeholder{
+            color: #FFFFFF;
+        }
     }
-    .ant-select-selection__placeholder{
-  color : blue;
-}
+    
 `;
 
 export const Title = styled.h1`
@@ -72,4 +73,7 @@ export const InformationContainer = styled.div`
     width: 100%;
     box-sizing: border-box;
     gap: 33.37px;
+    .ant-form-item {
+        width: 100%;
+    }
 `;
