@@ -13,7 +13,6 @@ function App() {
       <section id='banner'><Banner/></section>
       <section id='advantages'><AdvantagesSection/></section>
       <section id='team'><HiringSection/></section>
-      <section id='team'><HiringSection/></section>
       <ContactUs />
       <Footer/>
     </>
