@@ -9,7 +9,7 @@ export const Container = styled.div`
     border-radius: 8px;
     margin: auto;
     position: relative;
-    margin-top: 115px !important;
+    margin-top: 148px !important;
     z-index: 1;
     //padding-top: 41.71px;
     padding: 41.71px 40px 53.18px 52.38px ;
