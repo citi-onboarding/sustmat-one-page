@@ -1,8 +1,6 @@
 import React from "react";
 import { AdvantagesCardContainer, AdvantagesSectionContainer, TitleSection } from "./styles";
 import { AdvantagesCard } from "../../components";
-import { backgroundimage } from "../../assets"
-import { url } from "inspector";
 
 
 export const AdvantagesSection: React.FC = () =>{
