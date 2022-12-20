@@ -1,9 +1,7 @@
 import express from 'express';
-import AdventageSectionController from '@controllers/AdventageSectionController';
 import HiringSectionController from '@controllers/HiringSectionController';
 import CarouselController from '@controllers/CarouselController';
 import AdventageSectionController from '@controllers/AdventageSectionController';
-import HiringSectionController from '@controllers/HiringSectionController';
 
 const routes = express.Router();
 

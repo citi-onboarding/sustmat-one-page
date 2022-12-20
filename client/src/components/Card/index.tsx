@@ -20,7 +20,8 @@ export const CardComponent: React.ElementType = ({technician}:CardProps) => {
         try {
             const response = await api.get(`/hiring`);
             setData(response.data);
-            /* console.log(data) */
+            console.log("HIRING DADOS");
+            console.log(data);
         } catch (error) {
             console.log('Error connecting to database');
         }
@@ -37,11 +38,11 @@ export const CardComponent: React.ElementType = ({technician}:CardProps) => {
             </div>
         </button>
         <div className="group447">
-            {/* <h1 className="parttime">
+            <h1 className="parttime">
                 Part-time
                 <br></br><br></br>
                 Make the recovery of metals from extractor solution.
-            </h1> */}
+            </h1>
             {/* {data.map((requirement)=> <h1 className="parttime">{requirement.requirements[0]}</h1> )} */}
             <h1 className="requirements">Requirements</h1>
             <h1 className="technician">{technician}</h1>

@@ -16,6 +16,7 @@ import SendIcon from './sendIcon.svg'
 import arrowRight from './arrowRight.svg';
 import arrowLeft from './arrowLeft.svg';
 import sentIcon from './sentIcon.svg';
+import HiringDetail from './hiringDetail.svg'
 
 export {
     LogoCITi,
@@ -35,5 +36,6 @@ export {
     SendIcon,
     arrowLeft,
     arrowRight,
-    sentIcon
+    sentIcon,
+    HiringDetail
 };
