@@ -30,8 +30,8 @@ export const HiringSection: React.FC = () => {
     return (
         <HiringContainer id="Hiring">
             <Img id="vector21" src={BlueBar} alt="" />
-            <HiringTitle>Teste 1</HiringTitle>
-            <HiringSubtitle>Teste 2 Teste 2 Teste 3</HiringSubtitle>
+            <HiringTitle>We are hiring!</HiringTitle>
+            <HiringSubtitle>Be a part of the sustmat team.</HiringSubtitle>
             
             <Components>
                 {data.map((card)=><CardComponent technician={card.jobtitle} requirements={card.requirement} />)}

@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const Components = styled.div`
 width: 100%;
 display: flex;
-justify-content: center;
+justify-content: space-around;
+
 `
 
 export const HiringContainer = styled.div`
@@ -19,7 +20,7 @@ export const Img = styled.img`
     z-index: 10;
     width: 13.6%;
     height: 1%;
-
+    margin-top: 133px;
 `
 
 export const HiringTitle = styled.h1`
@@ -30,6 +31,7 @@ export const HiringTitle = styled.h1`
     line-height: 43px;
     text-align: center;
     color: #343434;
+    margin-bottom: 16px !important;
 `;
 
 export const HiringSubtitle = styled.h3`
@@ -40,5 +42,7 @@ export const HiringSubtitle = styled.h3`
     line-height: 24px;
     text-align: center;
     color: #343434;
+    margin: 0;
+    margin-bottom: 34px !important;
 `
 
