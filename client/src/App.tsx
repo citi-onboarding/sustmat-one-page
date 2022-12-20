@@ -7,7 +7,6 @@ import { Navbar } from './pages';
 import { AdvantagesSection } from './pages';
 import { Banner} from './pages';
 import { Carousel } from './pages';
-import { GlobalStyle } from './styles/global';
 
 function App() {
   return (

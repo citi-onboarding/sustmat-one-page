@@ -1,6 +1,5 @@
 import React from "react";
 import { BlueDetails, MouseVectorStart } from "../../assets";
-import { MouseVector } from "../../assets";
 import { ScrollContainer, TextContainer, BannerContainer} from "../Banner/styles";
 
 export const Banner: React.FC = () =>{

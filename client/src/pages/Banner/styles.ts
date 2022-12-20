@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import { MouseVectorStart } from "../../assets";
-import { MouseVectorEnd } from "../../assets";
 
 export const BannerContainer = styled.div`
     background-color: white;
@@ -71,16 +69,6 @@ export const BannerContainer = styled.div`
 `;
 
 export const ScrollContainer = styled.div`
-    @keyframes Mouse{
-        from {MouseVectorStart}
-        to {MouseVectorEnd}
-    }
-
-    #MouseVector{
-        animation-name: Mouse;
-        animation-duration: 4s;
-    }
-
     width: 202px;
     height: 62.50px;
     display: flex;

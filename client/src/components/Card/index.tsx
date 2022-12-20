@@ -1,4 +1,3 @@
-import ReactS, { ReactElement } from "react";
 import { StyledCard } from "./styles";
 import { Certinho } from "../../assets";
 

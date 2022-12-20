@@ -1,7 +1,6 @@
 import React from "react";
 import { Components, HiringContainer } from "./styles";
 import { CardComponent } from "../../components";
-import { Certinho } from "../../assets";
 import { BlueBar } from "../../assets";
 
 export const HiringSection: React.FC = () => {

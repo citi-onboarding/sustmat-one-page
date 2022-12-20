@@ -1,7 +1,7 @@
 import React from "react";
 import { SendIcon } from "../../assets";
 import { Container, Title, SendWord, Image, SendContainer, InformationContainer } from "./styles";
-import { Button, Checkbox, Form, Input } from 'antd';
+import { Form, Input } from 'antd';
 
 export const ContactUs: React.FC = () => {
 

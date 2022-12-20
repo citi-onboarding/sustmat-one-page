@@ -1,6 +1,4 @@
 import styled from 'styled-components'; 
-import { useState } from 'react';
-import { Navbar } from '.';
 
 //implementar animação cores.
 export const NavbarContainer = styled.div`

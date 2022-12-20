@@ -24,6 +24,7 @@ export const AdvantagesSection: React.FC = () =>{
     }
     useEffect(() => {
         getData()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
     
     return(
