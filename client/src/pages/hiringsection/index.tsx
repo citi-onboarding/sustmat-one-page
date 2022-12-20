@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Components, HiringContainer } from "./styles";
+import { Components, HiringContainer, HiringSubtitle, HiringTitle, Img } from "./styles";
 import { CardComponent } from "../../components";
 import { BlueBar } from "../../assets";
 import api from "../../services/api";
 
 type HiringData = {
-    job: string;
+    jobtitle: string;
+    requirement: string[];
 }
 
 export const HiringSection: React.FC = () => {
@@ -16,6 +17,8 @@ export const HiringSection: React.FC = () => {
         try {
             const response = await api.get(`/hiring`);
             setData(response.data);
+            console.log('HIRING DADOS');
+            console.log(data)
         } catch (error) {
             console.log('Error connecting to database');
         }
@@ -26,14 +29,12 @@ export const HiringSection: React.FC = () => {
 
     return (
         <HiringContainer id="Hiring">
-            <img id="vector21" src={BlueBar} alt="" />
-            <h1 className="wearehiring">We are hiring!</h1>
-            <h1 className="beapart">Be a part of the sustmat team.</h1>
+            <Img id="vector21" src={BlueBar} alt="" />
+            <HiringTitle>Teste 1</HiringTitle>
+            <HiringSubtitle>Teste 2 Teste 2 Teste 3</HiringSubtitle>
+            
             <Components>
-                {/* <CardComponent technician={"Chemistry Technician"}/>
-                <CardComponent technician={"Chemistry Technician"}/>
-                <CardComponent technician={"Processing Technician"}/> */}
-                {data.map((card)=><CardComponent technician={card.job}/>)}
+                {data.map((card)=><CardComponent technician={card.jobtitle} requirements={card.requirement} />)}
             </Components>
         </HiringContainer>
     );
