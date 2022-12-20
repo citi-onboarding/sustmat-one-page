@@ -132,3 +132,70 @@ top: 61.57%;
 bottom: 43.81%;
 }
 `
+
+export const Card = styled.div`
+    background: #FFFFFF;
+    box-shadow: 0px 12px 17px rgba(0, 0, 0, 0.09);
+    border-radius: 11px;
+    width: 100%;
+    height: 100%;
+    padding: 32px 22px 0 29px;
+`;
+
+export const CardTitle = styled.h1`
+    font-family: 'Sen';
+    max-width: 50%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #373737;
+    /* margin-top: 32px;
+    margin-left: 59px; */
+`;
+
+export const RiquirementsText = styled.h3`
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #6C6C6C;
+    /* margin-left: 59px; */
+`;
+
+export const Image = styled.img``;
+
+export const RequirementContainer = styled.div`
+    width: 100%;
+    //flex-wrap: wrap;
+    display: flex;
+    gap: 17px;
+    height: auto;
+    /* margin-left: 22px; */
+`;
+
+export const RequirementText = styled.p`
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #373737;    
+`;
+
+export const Container = styled.div`
+    position: relative;
+    width: 315px;
+    height: 296px;
+    display: flex;
+`;
+
+export const ButtonWrapper = styled.div`
+    position: absolute;
+    z-index: 100;
+    top: 105%;
+    left: 13%;
+`;

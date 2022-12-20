@@ -18,6 +18,10 @@ export const Container = styled.div`
     //justify-content: center;
     flex-direction: column;
 
+    .ant-modal .ant-modal-content {
+        display: none !important;
+    }
+
     .ant-input{
         border-bottom: 1.04278px solid #FFFFFF;
         border-top: none;
@@ -28,6 +32,9 @@ export const Container = styled.div`
         ::placeholder{
             color: #FFFFFF;
         }
+    }
+    .ant-modal .ant-modal-close {
+        display: none;
     }
     
 `;
@@ -76,4 +83,36 @@ export const InformationContainer = styled.div`
     .ant-form-item {
         width: 100%;
     }
+`;
+
+export const TitleContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 22px;
+    width: 100%;
+    box-sizing: border-box;
+`;
+
+export const Icon = styled.img``;
+
+export const TitleText = styled.h3`
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #373737;
+`;
+
+export const ModalDescription = styled.p`
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 271px;
+    color: #373737;
+    margin: 0;
+
 `;

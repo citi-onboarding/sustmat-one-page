@@ -3,174 +3,47 @@ import styled from "styled-components";
 export const Components = styled.div`
 width: 100%;
 display: flex;
-justify-content: center;
+justify-content: space-around;
+
 `
 
 export const HiringContainer = styled.div`
-position: relative;
-max-width: 1366px;
-height: 617px;
-left: 0%;
-margin: auto;
+    max-width: 1366px;
+    flex-direction: column;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+`
 
-display: flex;
-justify-content: center;
-
-#vector21 {
-    position: absolute;
-    z-index:10;
+export const Img = styled.img`
+    z-index: 10;
     width: 13.6%;
     height: 1%;
-    left: 43.1%;
-    top: 9.2%;
-}
+    margin-top: 133px;
+`
 
-.beapart {
-    position: absolute;
-    width: 24%;
-    height: 24px;
-    left: 38.1%;
-    top: 23.3%;
-    
-    font-family: 'Sen', sans-seriff;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    
-    text-align: center;
-    
-    color: #343434;
-}
-
-.wearehiring {
-    position: absolute;
-    width: 43%;
-    height: 43px;
-    left: 28.4%;
-    top: 12.2%;
-    
-    font-family: 'Sen', sans-seriff;
+export const HiringTitle = styled.h1`
+    font-family: 'Sen';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 43px;
     text-align: center;
-    
     color: #343434;
-}
-`
-/*
-export const Card = styled.div` {
-    position: absolute;
-    width: 315px;
-    height: 315px;
-    left: 116px;
-    top: 202px;
+    margin-bottom: 16px !important;
+`;
 
-.knowmorebutton {
-    position: absolute;
-    z-index: 10;
-    left: 13.97%;
-    right: 14.29%;
-    top: 87.94%;
-    bottom: 0%;    
-}
-
-.knowmoretext {
-    position: absolute;
-    z-index: 10;
-    left: 27.43%;
-    right: 27.43%;
-    top: 0;
-    
-    font-family: 'Sen', sans-seriff;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    
-    color: #FFFFFF;
-}
-
-.rectangle150 {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    
-    background: linear-gradient(278.87deg, #6AA5FE 27.2%, #73D5E5 111.13%);
-    border-radius: 52px;
-}
-
-.group447 {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 6.03%;
-
-    background: #FFFFFF;
-    box-shadow: 0px 12px 17px rgba(0, 0, 0, 0.09);
-    border-radius: 11px;
-}
-
-.parttime {
-    position: absolute;
-    left: 18.73%;
-    right: 9.21%;
-    top: 45.7%;
-    bottom: 20.63%;
-    
-    font-family: 'Sen', sans-seriff;
+export const HiringSubtitle = styled.h3`
+    font-family: 'Sen';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    
-    color: #373737;
-}
-
-.requirements {
-    position: absolute;
-    left: 18.73%;
-    right: 40.32%;
-    top: 33.02%;
-    bottom: 60.95%;
-    
-    font-family: 'Sen', sans-seriff;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    
-    color: #6C6C6C;
-}
-
-.technician {
-    position: absolute;
-    left: 18.73%;
-    right: 23.81%;
-    top: 10.16%;
-    bottom: 74.6%;
-    
-    font-family: 'Sen', sans-seriff;
-    font-style: normal;
-    font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    
-    color: #373737;
-}
+    text-align: center;
+    color: #343434;
+    margin: 0;
+    margin-bottom: 34px !important;
+`
 
-.certinho {
-    position: absolute;
-    left: 6.35%;
-    right: 86.03%;
-    top: 48.57%;
-    bottom: 43.81%;
-}
-
-` */

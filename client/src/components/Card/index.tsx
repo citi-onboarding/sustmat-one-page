@@ -1,30 +1,34 @@
-import ReactS, { ReactElement } from "react";
-import { StyledCard } from "./styles";
-import { Certinho } from "../../assets";
+import ReactS, { ReactElement, useEffect, useState } from "react";
+import { ButtonWrapper, Card, CardTitle, Container, Image, RequirementContainer, RequirementText, RiquirementsText, StyledCard } from "./styles";
+import { Certinho, sentIcon } from "../../assets";
+import api from "../../services/api";
+import { ButtonComponent } from "../Button";
+import { ButtonContainer } from "../Button/styles";
 
-type CardProps = {
+
+type CardData = {
     technician: string;
+    requirements: string[];
 }
 
-export const CardComponent: React.ElementType = ({technician}:CardProps) => {
+export const CardComponent: React.ElementType = ({technician, requirements}:CardData) => {
+
+
     return (
-    <StyledCard>
-        <button className="knowmorebutton">
-            <div className="rectangle150">
-                    <h1 className="knowmoretext">Know more</h1>
-            </div>
-        </button>
-        <div className="group447">
-            <h1 className="parttime">
-                Part-time
-                <br></br><br></br>
-                Make the recovery of metals from extractor solution.
-            </h1>
-            <h1 className="requirements">Requirements</h1>
-            <h1 className="technician">{technician}</h1>
-            <img className="certinho" src={Certinho} alt="" />
-            <img className="certinho2" src={Certinho} alt="" />
-        </div>
-    </StyledCard>
+    <Container>
+        <Card>
+            <CardTitle>{technician}</CardTitle>
+            <RiquirementsText>Requirements</RiquirementsText>
+            {requirements.map((requirement) => 
+                <RequirementContainer>
+                    <Image src={sentIcon} />
+                    <RequirementText>{requirement}</RequirementText>
+                </RequirementContainer>
+            )}
+            
+        </Card>
+        <ButtonWrapper><ButtonComponent /></ButtonWrapper>
+        
+    </Container>
     );
 }

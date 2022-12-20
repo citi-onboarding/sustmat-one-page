@@ -5,15 +5,15 @@ import { Citi, Crud} from '../global'
 export default class AdventageSectionController implements Crud {
     
     async create(req: Request, res: Response){
-        const {title, description} = req.body;
+        const {icon, title, description} = req.body;
 
-        const isAnyUndefined = Citi.areValuesUndefined(title, description);
+        const isAnyUndefined = Citi.areValuesUndefined(icon, title, description);
 
         if (isAnyUndefined){
             return res.status(400).send()
         }
 
-        const newAdventage = { title, description}
+        const newAdventage = {icon, title, description}
 
         const {httpStatus, message} = await Citi.insertIntoDatabase(AdventageSection, newAdventage);
 
