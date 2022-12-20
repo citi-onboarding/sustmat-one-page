@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -22,7 +22,7 @@ function SamplePrevArrow(props: { className: any; style: any; onClick: any; }) {
 }
 
 type CarouselData = {
-  source: string;
+  link: string;
 }
 
 export const SimpleSlider: React.FC = () => {
@@ -50,10 +50,12 @@ export const SimpleSlider: React.FC = () => {
         try {
             const response = await api.get(`/carousel`);
             setData(response.data);
+            console.log("CARROSEL DADOS")
+            console.log(data);
         } catch (error) {
-            console.log('Error connecting to database');
+          console.log('Error connecting to database')
         }
-    }
+      }
     useEffect(() => {
         getData()
     }, [])
@@ -65,12 +67,11 @@ export const SimpleSlider: React.FC = () => {
             data.map(
             (video) => 
             <VideoContainer>
-              <iframe width="100%" height="371" src={video.source} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+              <iframe width="100%" height="371" src={video.link} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </VideoContainer>
           )
           }
-
-        </Slider>
+        </Slider> 
       </SliderContainer>
     );
   }

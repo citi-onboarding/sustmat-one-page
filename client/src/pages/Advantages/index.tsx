@@ -17,6 +17,8 @@ export const AdvantagesSection: React.FC = () =>{
         try {
             const response = await api.get(`/adventage`);
             setData(response.data);
+            console.log("ADVANTAGES DADOS")
+            console.log(data)
         } catch (error) {
             console.log('Error connecting to database');
         }
@@ -31,7 +33,7 @@ export const AdvantagesSection: React.FC = () =>{
                 Advantages of the <span id="SustmatWord">sustmat’s</span> <br/> liquefation mining
             </TitleSection>
             <AdvantagesCardContainer>
-               {data.map( (card) => <AdvantagesCard icon={card.icon} title={card.title} description={card.description}/>)}
+               {data.map( (card) => <AdvantagesCard  icon={card.icon} title={card.title} description={card.description}/>)}
             </AdvantagesCardContainer>
         </AdvantagesSectionContainer>
     );
