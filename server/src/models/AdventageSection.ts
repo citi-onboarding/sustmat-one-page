@@ -6,6 +6,9 @@ export class AdventageSection{
         id: number
 
     @Column()
+        icon: string
+        
+    @Column()
         title: string
     
     @Column()

@@ -1,14 +1,32 @@
-import React from "react";
-import { SendIcon } from "../../assets";
-import { Container, Title, SendWord, Image, SendContainer, InformationContainer } from "./styles";
-import { Form, Input } from 'antd';
+import React, { useState } from "react";
+import { SendIcon, sentIcon } from "../../assets";
+import { Container, Title, SendWord, Image, SendContainer, InformationContainer, TitleContainer, Icon, TitleText, ModalDescription } from "./styles";
+import { Form, Input, Modal } from 'antd';
 
-export const ContactUs: React.FC = () => {
 
+export const ContactUs = () => {
+    
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    
+    
+    const handleClickOutside = () => {
+        document.addEventListener("click", () => { setIsModalOpen(false) });
+    }
+  
+    const handleCancel = () => {
+      setIsModalOpen(false);
+    };
+
+    const showModal = () => {
+      setIsModalOpen(true);
+    }
 
     const onFinish = (values: any) => {
         console.log('Success:', values);
+        showModal();
       };
+
+
 
     return (
         <Container id="ContactUs">
@@ -66,6 +84,25 @@ export const ContactUs: React.FC = () => {
                 <SendWord>Send</SendWord>
                 <Image src={SendIcon} />
             </SendContainer>
+            
+            <Modal 
+                style={{
+                    borderRadius: '6px',
+                }} 
+                title = {
+                <TitleContainer>
+                        <Icon src={sentIcon}/>
+                        <TitleText>The form was sent sucefully!</TitleText>
+                </TitleContainer>
+                } 
+                    open={isModalOpen} 
+                    onCancel={handleCancel} 
+                    centered={true} 
+                    footer={false}
+                    width={384} 
+            >
+                <ModalDescription>Your request wast sent and will be answered soon.</ModalDescription>
+            </Modal>
         </Container>
     );
 }

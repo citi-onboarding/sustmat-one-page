@@ -1,7 +1,7 @@
 import express from 'express';
+import HiringSectionController from '@controllers/HiringSectionController';
 import CarouselController from '@controllers/CarouselController';
 import AdventageSectionController from '@controllers/AdventageSectionController';
-import HiringSectionController from '@controllers/HiringSectionController';
 
 const routes = express.Router();
 
@@ -9,10 +9,10 @@ const carouselController = new CarouselController();
 const adventageController = new AdventageSectionController();
 const hiringController = new HiringSectionController();
 
+routes.put('/carousel/:id', carouselController.update);
 routes.post('/carousel', carouselController.create);
 routes.get('/carousel', carouselController.get);
 routes.delete('/carousel/:id', carouselController.delete);
-routes.put('/carousel/:id', carouselController.update);
 
 routes.post('/adventage', adventageController.create);
 routes.get('/adventage', adventageController.get);
