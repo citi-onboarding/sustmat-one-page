@@ -191,11 +191,12 @@ export const Container = styled.div`
     width: 315px;
     height: 296px;
     display: flex;
+    
 `;
 
 export const ButtonWrapper = styled.div`
     position: absolute;
-    z-index: 100;
+    z-index: 2;
     top: 105%;
     left: 13%;
 `;
