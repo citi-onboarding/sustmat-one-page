@@ -11,13 +11,13 @@ type AdvantageData = {
 
 export const AdvantagesSection: React.FC = () =>{
 
+
     const [data, setData] = useState<AdvantageData[]>([]);
 
     async function getData() {
         try {
             const response = await api.get(`/adventage`);
             setData(response.data);
-            console.log("ADVANTAGES DADOS")
             console.log(data)
         } catch (error) {
             console.log('Error connecting to database');

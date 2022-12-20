@@ -2,12 +2,14 @@ import express from 'express';
 import AdventageSectionController from '@controllers/AdventageSectionController';
 import HiringSectionController from '@controllers/HiringSectionController';
 import CarouselController from '@controllers/CarouselController';
+import AdventageSectionController from '@controllers/AdventageSectionController';
+import HiringSectionController from '@controllers/HiringSectionController';
 
 const routes = express.Router();
 
+const carouselController = new CarouselController();
 const adventageController = new AdventageSectionController();
 const hiringController = new HiringSectionController();
-const carouselController = new CarouselController();
 
 routes.put('/carousel/:id', carouselController.update);
 routes.post('/carousel', carouselController.create);
