@@ -14,6 +14,7 @@ export const HiringContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 `
 
 export const Img = styled.img`

@@ -32,7 +32,6 @@ export const HiringSection: React.FC = () => {
             <Img id="vector21" src={BlueBar} alt="" />
             <HiringTitle>We are hiring!</HiringTitle>
             <HiringSubtitle>Be a part of the sustmat team.</HiringSubtitle>
-            
             <Components>
                 {data.map((card)=><CardComponent technician={card.jobtitle} requirements={card.requirement} />)}
             </Components>

@@ -139,17 +139,19 @@ export const Card = styled.div`
     border-radius: 11px;
     width: 100%;
     height: 100%;
+    padding: 32px 22px 0 29px;
 `;
 
 export const CardTitle = styled.h1`
     font-family: 'Sen';
+    max-width: 50%;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
     color: #373737;
-    margin-top: 32px;
-    margin-left: 59px;
+    /* margin-top: 32px;
+    margin-left: 59px; */
 `;
 
 export const RiquirementsText = styled.h3`
@@ -161,17 +163,18 @@ export const RiquirementsText = styled.h3`
     margin-top: 24px;
     margin-bottom: 24px;
     color: #6C6C6C;
-    margin-left: 59px;
+    /* margin-left: 59px; */
 `;
 
 export const Image = styled.img``;
 
 export const RequirementContainer = styled.div`
     width: 100%;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
     display: flex;
     gap: 17px;
-    margin-left: 22px;
+    height: auto;
+    /* margin-left: 22px; */
 `;
 
 export const RequirementText = styled.p`
@@ -180,8 +183,7 @@ export const RequirementText = styled.p`
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #373737;
-    
+    color: #373737;    
 `;
 
 export const Container = styled.div`
@@ -194,6 +196,6 @@ export const Container = styled.div`
 export const ButtonWrapper = styled.div`
     position: absolute;
     z-index: 100;
-    top: 93%;
+    top: 105%;
     left: 13%;
 `;

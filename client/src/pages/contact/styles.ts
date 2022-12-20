@@ -33,6 +33,9 @@ export const Container = styled.div`
             color: #FFFFFF;
         }
     }
+    .ant-modal .ant-modal-close {
+        display: none;
+    }
     
 `;
 

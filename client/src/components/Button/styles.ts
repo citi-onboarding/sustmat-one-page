@@ -10,6 +10,10 @@ export const ButtonContainer = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover{
+        background: linear-gradient(47.06deg, #478DF7 -15.87%, #73D5E5 143.09%);
+        cursor: pointer;
+    }
 `;
 
 export const ButtonTitle = styled.h3`
