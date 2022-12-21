@@ -10,7 +10,7 @@ import { Carousel } from './pages';
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    <>
       <Navbar/> 
       <Banner/>
       <AdvantagesSection/>
@@ -18,7 +18,7 @@ function App() {
       <HiringSection/>
       <ContactUs/>
       <Footer/>
-    </ThemeProvider>
+    </>
   )
 }
 export default App;

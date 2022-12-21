@@ -4,12 +4,9 @@ import styled from 'styled-components';
 export const CardContainer = styled.div`
     background-color: white;
     box-shadow: 0px 12px 17px rgba(0, 0, 0, 0.09);
-    width: 335px;
+    width: 24.5%;
     height: 221px;
-
     margin: 32.5px;
-
-
     border-radius: 11px;
     display: flex;
     align-items: center;
@@ -34,7 +31,6 @@ export const CardDescription = styled.p`
     font-size: 16px;
     color: #373737;
     text-align: center;
-
     margin-top: 16px;
 `;
 
@@ -43,8 +39,7 @@ export const Buttom = styled.div`
     justify-content: center;
     align-items: center;
     transition-duration: 0.8s;
-    
-    width: 226px;
+    width: 16.6%;
     height: 38px;
     border-radius: 52px;
     background: linear-gradient(278.87deg, #6AA5FE 27.2%, #73D5E5 111.13%);
