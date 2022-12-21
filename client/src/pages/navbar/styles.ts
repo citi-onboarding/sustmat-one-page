@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const NavbarContainer = styled.div`
     position: fixed;
     z-index: 11;
+    width: 100%;
     //max-width: 1366px;
     height: 110px;
     left: 0px;
@@ -37,7 +38,6 @@ img {
     height: 25px;
     left: 80%;
     top: 43px;
-    
     font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -180,18 +180,13 @@ img {
 
 .contact {
     position: absolute;
-    width: 138px;
+    width: 10%;
     height: 42px;
     left: 87.4%;
     top: 34px;
 }
 
 .Tcontact {
-    position: absolute;
-    width: 78px;
-    height: 25px;
-    left: 28px;
-    top: 9px;
     z-index: 10;
     
     font-family: 'Sen', sans-serif;
@@ -208,7 +203,7 @@ img {
 
 .group45 {
     position: absolute;
-    width: 138px;
+    width: 100%;
     height: 42px;
     left: 0px;
     top: 0px;
@@ -216,7 +211,7 @@ img {
 
 .bluerectangle150 {
     position: absolute;
-    width: 138px;
+    width: 100%;
     height: 42px;
     left: 0px;
     top: 0px;
@@ -227,7 +222,7 @@ img {
 
 .rectangle150 {
     position: absolute;
-    width: 138px;
+    width: 100%;
     height: 42px;
     left: 0px;
     top: 0px;
@@ -243,11 +238,9 @@ img {
     height: 110px;
     left: 0%;
     margin-top: 200px;
-
     right: 0%;
     display: flex;
     flex-direction: row;
-    
     background: #FFFFFF;
     box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
 }
