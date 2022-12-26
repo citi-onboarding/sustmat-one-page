@@ -36,6 +36,10 @@ export const Container = styled.div`
     .ant-modal .ant-modal-close {
         display: none;
     }
+
+    .ant-form-item{
+        width: 100%;
+    }
     
 `;
 
