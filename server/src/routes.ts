@@ -2,6 +2,7 @@ import express from 'express';
 import HiringSectionController from '@controllers/HiringSectionController';
 import CarouselController from '@controllers/CarouselController';
 import AdventageSectionController from '@controllers/AdventageSectionController';
+import { SendMail } from '@controllers/MailControler';
 
 const routes = express.Router();
 
@@ -23,5 +24,7 @@ routes.post('/hiring', hiringController.create);
 routes.get('/hiring', hiringController.get);
 routes.delete('/hiring/:id', hiringController.delete);
 routes.put('/hiring/:id', hiringController.update);
+
+routes.post('/email', SendMail);
 
 export default routes;
