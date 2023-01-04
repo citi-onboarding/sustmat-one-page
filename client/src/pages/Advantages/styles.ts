@@ -8,7 +8,7 @@ export const AdvantagesSectionContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 1366px;
+    //max-width: 1366px;
     height: 657px;
     background-color: white;
     background-repeat: no repeat;
@@ -44,7 +44,7 @@ export const AdvantagesCardContainer = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 `
 
 export const ImageContainer = styled.div`

@@ -1,21 +1,18 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    max-width: 975px;
+    max-width: 1200px;
     width: 80%;
-    //height: 489.06px;
     background: linear-gradient(300.49deg, #4080E0 43.53%, #71C8EC 117.57%);
-    //filter: blur(2.60695px);
     border-radius: 8px;
     margin: auto;
-    position: relative;
-    margin-top: 148px !important;
-    z-index: 1;
-    //padding-top: 41.71px;
-    padding: 2% 40px 0 52.38px ;
+    position: absolute;
+    top: 16%;
+    //margin-top: 167px !important;
+    z-index: 2;
+    padding: 2% 40px 52px 52.38px ;
     box-sizing: border-box;
     display: flex;
-    //justify-content: center;
     flex-direction: column;
 
     .ant-modal .ant-modal-content {

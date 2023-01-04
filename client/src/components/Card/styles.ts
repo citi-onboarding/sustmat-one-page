@@ -188,7 +188,8 @@ export const RequirementText = styled.p`
 
 export const Container = styled.div`
     position: relative;
-    width: 315px;
+    //width: 315px;
+    width: 23.5%;
     height: 296px;
     display: flex;
     
@@ -198,5 +199,6 @@ export const ButtonWrapper = styled.div`
     position: absolute;
     z-index: 2;
     top: 105%;
-    left: 13%;
+    left: 15%;
+    width: 71%;
 `;

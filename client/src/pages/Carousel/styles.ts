@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const CarouselContainer = styled.div`
-    max-width: 1366px;
+    ///max-width: 1366px;
     margin: auto;
     display: flex;
     justify-content: space-around;

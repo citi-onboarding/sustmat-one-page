@@ -5,12 +5,15 @@ export const CardContainer = styled.div`
     background-color: white;
     box-shadow: 0px 12px 17px rgba(0, 0, 0, 0.09);
     width: 24.5%;
+    max-width: 400px; ////
     height: 221px;
     margin: 32.5px;
     border-radius: 11px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
+    padding-bottom: 0px !important;
 `;
 
 export const CardTitle = styled.h1`
