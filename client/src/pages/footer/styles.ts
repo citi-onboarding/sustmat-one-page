@@ -22,7 +22,7 @@ export const FooterContainer = styled.div`
         font-family: 'Rubik';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 1em;
         line-height: 24px;
         color: #FFFFFF;
     } 
