@@ -34,10 +34,20 @@ export const ContactUs = () => {
 
     const getContact = async (e: { preventDefault: () => void }) => {
         try {
-            e.preventDefault();
-            await api.post('email', {name, email, messageHowYouMet, messageWhyAreYouInContact, phone});
-            console.log('success')
-            showModal();
+            if(name && phone && email && messageHowYouMet && messageWhyAreYouInContact){
+                e.preventDefault();
+                await api.post('email', {name, email, messageHowYouMet, messageWhyAreYouInContact, phone});
+                console.log('success')
+                showModal();
+                setName("");
+                setEmail("");
+                setMessageHowYouMet("");
+                setPhone("");
+                setmessageWhyAreYouInContact("")
+            }
+            else{
+                alert('Preencha os campos!')
+            }
         } catch (error) {
             console.log(error);
             alert('Ocorreu um erro, tente novamente.')
@@ -50,6 +60,7 @@ export const ContactUs = () => {
         <Container id="ContactUs">
             <Title>Talk to us</Title>
             <Form
+                
                 name="basic"
                 onFinish={getContact}
                 autoComplete="on"
@@ -124,13 +135,10 @@ export const ContactUs = () => {
                     />
                 </Form.Item>
                 
-                <Form.Item style={{ alignSelf: 'flex-end' }}>
-                    <SendContainer onClick={getContact}>
-                        <SendWord>Send</SendWord>
-                        <Image src={SendIcon} />
-                    </SendContainer>
-                </Form.Item>
-                
+                <SendContainer type="submit" onClick={getContact}>
+                    <SendWord>Send</SendWord>
+                    <Image src={SendIcon} />
+                </SendContainer>
             </Form>
             
             

@@ -2,7 +2,7 @@ import express from 'express';
 import HiringSectionController from '@controllers/HiringSectionController';
 import CarouselController from '@controllers/CarouselController';
 import AdventageSectionController from '@controllers/AdventageSectionController';
-import { SendMail } from '@controllers/MailControler';
+import {SendMail} from '@controllers/MailControler';
 
 const routes = express.Router();
 
