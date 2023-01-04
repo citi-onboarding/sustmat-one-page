@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
     position: relative;
-    //margin: auto;
     width: 100%;
     background-color: #1C1C1C;
     display: flex;
     flex-direction: column;
+    margin-top: 626px;
     
     .sustgold {
         font-family: 'Rubik', sans-seriff;
@@ -15,7 +15,6 @@ export const FooterContainer = styled.div`
         font-size: 16px;
         line-height: 36px;
         color: #FFFFFF;
-        
         opacity: 0.48;
     }
 
@@ -47,8 +46,9 @@ export const TopFooter = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 353px;
+    //margin-right: 30%;
 `;
 
 export const BottomFooter = styled.div`
@@ -78,4 +78,15 @@ export const BottomContent = styled.p`
 export const SocialMediaContainer = styled.div`
     display: flex;
     gap: 25px;
+`;
+
+export const FooterContact = styled.div`
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
 `;

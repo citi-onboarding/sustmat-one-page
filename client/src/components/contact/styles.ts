@@ -6,8 +6,9 @@ export const Container = styled.div`
     background: linear-gradient(300.49deg, #4080E0 43.53%, #71C8EC 117.57%);
     border-radius: 8px;
     margin: auto;
-    position: relative;
-    margin-top: 167px !important;
+    position: absolute;
+    top: 16%;
+    //margin-top: 167px !important;
     z-index: 2;
     padding: 2% 40px 52px 52.38px ;
     box-sizing: border-box;
