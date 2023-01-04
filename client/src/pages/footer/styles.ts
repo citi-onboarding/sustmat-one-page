@@ -4,8 +4,8 @@ export const FooterContainer = styled.div`
     position: relative;
     width: 100%;
     background-color: #1C1C1C;
-    display: flex;
-    flex-direction: column;
+    //display: flex;
+    //flex-direction: column;
     margin-top: 626px;
     
     .sustgold {
@@ -29,11 +29,12 @@ export const FooterContainer = styled.div`
 `
 
 export const LogoContainer = styled.div`
-    margin-right: 2.84%;
+    //margin-right: 2.84%;
+    width: 150px;
 `;
 
 export const InfoContainer = styled.div`
-    width: 42.5%;
+    width: 90%;
     max-width: 568px;
     display: flex;
     flex-direction: column;
@@ -78,6 +79,7 @@ export const BottomContent = styled.p`
 export const SocialMediaContainer = styled.div`
     display: flex;
     gap: 25px;
+    justify-self: flex-end;
 `;
 
 export const FooterContact = styled.div`
@@ -89,4 +91,22 @@ export const FooterContact = styled.div`
     align-items: center;
     position: relative;
     box-sizing: border-box;
+`;
+
+export const Content = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  //  border: 2px solid red;
+`;
+
+export const RightContent = styled.div`
+    display: flex;
+    gap: 40px;
+   // border: 2px solid blue;
+`;
+
+export const LogoImg = styled.img`
+    width: 100%;
 `;
