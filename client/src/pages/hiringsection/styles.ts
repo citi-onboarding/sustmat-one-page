@@ -8,11 +8,11 @@ justify-content: space-around;
 `
 
 export const HiringContainer = styled.div`
-    max-width: 1366px;
+    //max-width: 1366px;
     flex-direction: column;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-bottom: 60px;
 `

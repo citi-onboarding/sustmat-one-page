@@ -25,8 +25,7 @@ export const CardComponent: React.ElementType = ({technician, requirements}:Card
             )}
             
         </Card>
-        <ButtonWrapper><ButtonComponent /></ButtonWrapper>
-        
+        <ButtonWrapper><ButtonComponent /></ButtonWrapper> 
     </Container>
     );
 }
