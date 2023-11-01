@@ -10,7 +10,7 @@ type CardProps = {
 export const AdvantagesCard: React.ElementType = ({title, description, icon}: CardProps) =>{
     return(
         <CardContainer>
-            <IconContainer><img src={icon} alt="icon"/></IconContainer>
+            <IconContainer><img width={56} height={56} src={icon} alt="icon"/></IconContainer>
             <CardTitle>{title}</CardTitle>
             <CardDescription>{description}</CardDescription>
             <Buttom>
